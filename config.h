@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:pixelsize=28:antialias=true:autohint=true";
+static char *font = "Source Code Pro:pixelsize=38:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -119,7 +119,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#131313",
+	"#cccccc",
 	"#d6dbe5",
 	"black",
 };
