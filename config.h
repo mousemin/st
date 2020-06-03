@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:pixelsize=38:antialias=true:autohint=true";
+static char *font = "Source Code Pro:pixelsize=28:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -95,30 +95,32 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#1f1f1f",
+	"#f81118",
+	"#2dc55e",
+	"#ecba0f",
+	"#2a84d2",
+	"#4e5ab7",
+	"#1081d6",
+	"#d6dbe5",
+
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#d6dbe5",
+	"#de352e",
+	"#1dd361",
+	"#f3bd09",
+	"#1081d6",
+	"#5350b9",
+	"#0f7ddb",
+	"#ffffff",
+
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+	"#131313",
+	"#d6dbe5",
 	"black",
 };
 
